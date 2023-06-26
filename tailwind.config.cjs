@@ -4,9 +4,14 @@ module.exports = {
         './src/js/**/*.js'
     ], theme: {
         fontFamily: {
-            'sans': ['Oswald', 'ui-sans-serif', 'system-ui'],
+            'sans': ['Noto Sana', 'ui-sans-serif', 'system-ui'],
             'serif': ['ui-serif', 'Georgia'],
             'mono': ['ui-monospace', 'SFMono-Regular'],
+        },
+        extend: {
+            screens: {
+                'xl': '1440px'
+            }
         }
     },
     plugins: [],
