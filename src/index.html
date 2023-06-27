@@ -2,18 +2,22 @@
 
 <main>
     <header class="bg-[#ffca05] h-[480px] relative overflow-hidden">
-        <div class="container mx-auto relative">
-            <div class="header-wrapper pl-[133px] flex justify-evenly flex-col">
+        <div class="container flex flex-col mx-auto relative">
+            <div class="header-wrapper pl-[133px] pt-[58px] flex justify-evenly flex-col">
                 <img src="/assets/img/budimex-logo.svg" alt="Log Budimex" width="220" height="57"/>
                 <h1 class="text-6xl font-black mt-[67px] leading-[82px]">Praktyka jest<br>miarą sukcesu!</h1>
                 <img src="/assets/img/linijka.svg" alt="Linijka" width="577" class="mt-[35px]"/>
             </div>
-            <div class="counter-part absolute h-[480px] w-[700px]">
-                <div class="bg-[url(/assets/img/hero_pic.png)] absolute bottom-[-10px] right-[-15px] bg-no-repeat z-1 w-[359px] h-[301px]"></div>
-                <div class="bg-[url(/assets/img/kratka.svg)] absolute top-0 right-0 z-0 w-[100%] h-[100%]"></div>
+            <div class="counter-part flex absolute h-[480px] w-[723px] top-0 right-0">
+                <div class="bg-[url(/assets/img/hero_pic.png)] absolute bottom-[-10px] right-[6px] bg-no-repeat z-10 w-[359px] h-[301px]"></div>
+                <div class="bg-[url(/assets/img/kratka.svg)] flex-end absolute top-0 right-[1px] z-0 w-[100%] h-[100%] bg-repeat-x"></div>
+                <load="template-partials/counter3.html"/>
             </div>
-        </div>
+        </div> 
     </header>
+    <div class="relative w-[100%] h-[20px]">
+    <div class="bg-[url(/assets/img/bwline.svg)] w-[100%] h-[20px] bg-repeat-x absolute left-[-1px] border-b-2 border-black"></div>
+    </div>
 </main>
 
 <load="template-partials/footer.html" />

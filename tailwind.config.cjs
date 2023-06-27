@@ -4,7 +4,7 @@ module.exports = {
         './src/js/**/*.js'
     ], theme: {
         fontFamily: {
-            'sans': ['Noto Sana', 'ui-sans-serif', 'system-ui'],
+            'sans': ['Noto Sans', 'ui-sans-serif', 'system-ui'],
             'serif': ['ui-serif', 'Georgia'],
             'mono': ['ui-monospace', 'SFMono-Regular'],
         },
