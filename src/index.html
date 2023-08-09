@@ -18,8 +18,8 @@
     <div class="relative w-[100%] h-[20px]">
         <div class="bg-[url(/assets/img/bwline.svg)] w-[100%] h-[20px] bg-repeat-x absolute left-[-1px] border-b-2 border-black"></div>
     </div>
-    <div class="w-[100%] h-[193px] mt-[52px] flex justify-center ">
-        <div class="w-[1393px] h-[193px] flex justify-between ">
+    <div class="w-[100%] h-[193px] mt-[52px]">
+        <div class="w-[100%] h-[193px] flex justify-between">
             <load="template-partials/counter4.html" number="1968" opis="rok powstania firmy" />
             <load="template-partials/counter4.html" number="7050" opis="pracowników Grupy" />
             <load="template-partials/counter4.html" number="300" opis="kontraktów rocznie" />
@@ -38,14 +38,18 @@
     <div class="w-[100%] h-[142px] pt-[60px] flex justify-center text-6xl font-black bg-[#f3f3f3]">
         Poznaj nas lepiej
     </div>
-    <div class="w-[100%] h-[273px] relative flex justify-center bg-[#f3f3f3]">
-        <div class="bg-[url(/assets/img/budimex-a.png)]  bg-no-repeat w-[100%] h-[273px] ml-[112px]"></div>
-        <div class="bg-[url(/assets/img/budimex-b.png)]  bg-no-repeat z-10 w-[100%] h-[266px] ml-[306px]"></div>
+    <div class="w-[100%] h-[273px] bg-[#f3f3f3]">
+        <div class="w-[100%] h-[273px] relative flex ml-[112px]">
+            <div class="bg-[url(/assets/img/budimex-a.png)]  bg-no-repeat w-[31.5%] h-[273px] "></div>
+            <div class="w-[18.3%] flex"></div> 
+            <div class="bg-[url(/assets/img/budimex-b.png)]  bg-no-repeat w-[31.5%] h-[266px] "></div>
+        </div>
     </div>
-    <div class="relative w-[100%] h-[650px]">
+    <div class="relative w-[100%] h-[650px] bg-[#f3f3f3]">
         
-        <div class="w-[100%] h-[650px] grid grid-flow-col col-span-2 bg-[#f3f3f3]">
-            <div class="w-[50%] h-[650px] bg-[#f3f3f3] pl-[134px] text-[40px] font-black">Biuro
+        <div class="w-[100%] h-[650px] flex ml-[134px]  bg-[#f3f3f3]">
+            <div class="w-[31.5%] h-[650px] bg-[#f3f3f3]">
+                <h3 class="font-black text-[40px]">Biuro</h3>
                 <load="template-partials/menu.html" name="Biuro Techniczne" />
                 <load="template-partials/menu.html" name="Dział IT" />
                 <load="template-partials/menu.html" name="Finanse" />
@@ -54,8 +58,11 @@
                 <load="template-partials/menu.html" name="Współpraca - Biuro Zakupów, Jakości i Środowiska" />
                 <load="template-partials/menu.html" name="Biuro Handlowe" />
             </div>
-            <div class="w-[66px] h-[327px] bg-[url(/assets/img/Frame.png)] mt-[84px] ml-[101px]"></div>
-            <div class="w-[50%] h-[650px] bg-[#f3f3f3] pl-[90px] text-[40px] font-black">Budowa
+            <div class="w-[18%] h-[327px] mt-[84px] flex justify-center">
+                <img src="/assets/img/Frame.png" width="66px" />
+            </div>
+            <div class="w-[31.5%] h-[650px] bg-[#f3f3f3]">
+                <h3 class="font-black text-[40px]">Budowa</h3>
                 <load="template-partials/menu.html" name="Budownictwo Infrastrukturalne" />
                 <load="template-partials/menu.html" name="Budownictwo kubaturowe" />
                 <load="template-partials/menu.html" name="Budownictwo kolejowe" />
