@@ -2,21 +2,24 @@
 
 <main>
     <header class="bg-[#ffca05] h-[480px] relative overflow-hidden">
-        <div class="container flex flex-col mx-auto relative">
-            <div class="header-wrapper pl-[133px] pt-[58px] flex justify-evenly flex-col">
-                <img src="/assets/img/budimex-logo.svg" alt="Log Budimex" width="220" height="57"/>
-                <h1 class="text-6xl font-black mt-[67px] leading-[82px]">Praktyka jest<br>miarą sukcesu!</h1>
-                <img src="/assets/img/linijka.svg" alt="Linijka" width="577" class="mt-[35px]"/>
+        <div class="flex flex-col mx-auto relative">
+            <div class="pl-4 pt-12 sm:w-[50%] sm:pl-[133px] sm:pt-[58px] sm:flex sm:justify-evenly sm:flex-col">
+                <img src="/assets/img/budimex-logo.svg" alt="Log Budimex" width="220" height="57" class="hidden sm:block"/>
+                <img src="/assets/img/logo budi sm.png" alt="Log Budimex small" class="block sm:hidden"/>
+                <h1 class="text-[40px] mt-[36px] sm:text-6xl font-black sm:mt-[67px] sm:leading-[82px]">Praktyka jest<br>miarą sukcesu!</h1>
+                <img src="/assets/img/linijka.svg" alt="Linijka" width="577" class="hidden sm:block sm:mt-[35px]"/>
+                <img src="/assets/img/linijkasmall.png" alt="Linijka" height="20px" class=" sm:hidden mt-[25px] inline-block"/>
+                <img src="/assets/img/linijkasmall.png" alt="Linijka" height="20px" class="ml-[-10px] sm:hidden mt-[25px] inline-block"/>
             </div>
-            <div class="counter-part flex absolute h-[480px] w-[723px] top-0 right-0">
-                <div class="bg-[url(/assets/img/hero_pic.png)] absolute bottom-[-10px] right-[6px] bg-no-repeat z-10 w-[359px] h-[301px]"></div>
-                <div class="bg-[url(/assets/img/kratka.svg)] flex-end absolute top-0 right-[1px] z-0 w-[100%] h-[100%] bg-repeat-x"></div>
+            <div class="flex justify-center sm:absolute sm:h-[480px] sm:w-[50%] sm:top-0 sm:right-0">
+                <div class="hidden sm:block sm:bg-[url(/assets/img/hero_pic.png)] sm:absolute sm:bottom-[-10px] sm:right-[6px] sm:bg-no-repeat sm:z-10 sm:w-[359px] sm:h-[301px]"></div>
+                <div class="hidden sm:block  sm:bg-[url(/assets/img/kratka.svg)] sm:flex-end sm:absolute sm:top-0 sm:right-[1px] sm:z-0 sm:w-[100%] sm:h-[100%] sm:bg-repeat-x"></div>
                 <load="template-partials/counter3.html" number11="5" number22="3" number33="4"  number44="5" number55="2" number66="1" opis1="dni" opis2="godzin" opis3="minut" />
             </div>
         </div> 
     </header>
-    <div class="relative w-[100%] h-[20px]">
-        <div class="bg-[url(/assets/img/bwline.svg)] w-[100%] h-[20px] bg-repeat-x absolute left-[-1px] border-b-2 border-black"></div>
+    <div class="h-[10px] relative w-[100%] sm:h-[20px]">
+        <div class="bg-[url(/assets/img/Framesmall.png)] h-[10px] border-b-2 sm:bg-[url(/assets/img/bwline.svg)] w-[100%] sm:h-[20px] bg-repeat-x absolute left-[-3px] sm:left-[-1px] sm:border-b-2 border-black"></div>
     </div>
     <div class="w-[100%] h-[193px] mt-[52px]">
         <div class="w-[100%] h-[193px] flex justify-between">
@@ -28,15 +31,15 @@
             <load="template-partials/counter4.html" number="302" opis="pracuje w firmie do dziś" />
         </div>
     </div>
-    <div class="w-[100%] h-[222px] bg-[#f3f3f3] relative pt-[60px] pb-[80px] text-6xl font-black flex flex-col items-center ">
-            Zagraj i zgarnij praktyki
-            <div class="mt-[60px]">
+    <div class="w-[100%] h-[180px] pt-[13px] pb-[55px]  sm:h-[222px] bg-[#f3f3f3] relative sm:pt-[60px] sm:pb-[80px] flex flex-col items-center ">
+            <h3 class="text-[40px] sm:text-6xl text-center font-black">Zagraj i zgarnij praktyki</h3>
+            <div class="mt-[6px] sm:mt-[60px]">
                 <load="template-partials/button.html" title="Aplikuj" />
             </div>
     </div>
-    <div class="w-[100%] h-[90px] bg-white"></div>
-    <div class="w-[100%] h-[142px] pt-[60px] flex justify-center text-6xl font-black bg-[#f3f3f3]">
-        Poznaj nas lepiej
+    <div class="h-[74px] w-[100%] sm:h-[90px] bg-white"></div>
+    <div class="h-[180px] pt-[13px] pb-[55px]  sm:h-[222px] bg-[#f3f3f3] relative sm:pt-[60px] sm:pb-[80px] flex flex-col items-center">
+        <h3 class="text-[40px] sm:text-6xl text-center font-black">Poznaj nas <br> lepiej</h3>
     </div>
     <div class="w-[100%] h-[273px] bg-[#f3f3f3]">
         <div class="w-[100%] h-[273px] relative flex pl-[112px]">
